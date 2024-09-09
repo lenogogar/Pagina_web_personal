@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web personal</title>
+    <style>
+    
+        <h2>---------------LENOTCHKA GOMEZ------------</h2>
+        <h3> hola! me pueden llamar leno </h3>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #faf7f7;
+            color: rgb(252, 248, 248);
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: rgb(15, 15, 15);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h3 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        /* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #94793f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(143, 80, 8, 0.2);
+}
+
+h1 {
+    font-size: 1,5.em;
+    margin: 10;
+}
+
+/* Section Styles */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(240, 234, 183);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(143, 80, 8, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    font-size: 1,5em;
+    color: #333;
+    border-bottom: 2px solid #94793f;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1,5em;
+    color: #555;
+    border-bottom: 2px solid #94793f;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    font-size: 1,1em;
+}
+
+ul li:before {
+    content: '• ';
+    color: #94793f;
+    font-weight: bold;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+     
+    h3 {
+        font-size: 1.5em;
+    }
+
+    section {
+        padding: 15px;
+        margin: 10px;
+    }
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenido a Mi Página web Personal</h1>
+    </header>
+   
+    <!-- Sección de Gustos -->
+    <section id="gustos">
+        <h1>Gustos</h2>
+        <h2>Gustos Musicales</h3>
+        <ul>
+            <li>Hip hop</li>
+            <li>Reggae</li>
+            <li>Pop</li>
+        </ul>
+        <h2>Gustos Culturales</h3>
+        <ul>
+            <li>Teatro</li>
+            <li>Galerias de arte</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Hobbies -->
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Pintar o dibujar</li>
+            <li>Fotografía</li>
+            <li>Jugar voleibol</li>
+            <li>Reposteria</li>
+            <li>Hacer ejercicio</li>
+            <li>Hacer senderismo</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Información General -->
+    <section id="informacion-general">
+        <h2>Información General</h2>
+        <h3>Familia</h3>
+        <p>Tengo una familia muy unida, somos 4 miembros: mis padres, mi hermana mayor y yo.</p>
+
+        <h3>Mascotas</h3>
+        <p>Tengo un perro cocker llamado Chocolate, lo llame asi por lo cafe, redondo y tierno que es.</p>
+
+        <h3>Amigos</h3>
+        <p>Tengo un grupo de amigos muy cercano con quienes me gusta pasar el tiempo libre.</p>
+    </section>
+
+</body>
+</html>
+
